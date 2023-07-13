@@ -1,0 +1,64 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    /* border: 2px solid red; */
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px;
+    height: 15vh;
+    background-color: rgb(68, 68, 68);
+}
+
+.c1{
+    height: 85vh;
+    display: flex;
+    color: #fff;
+    background-color: rgb(38, 0, 38);
+}
+
+.c1 >div{
+    width: 50%;
+    text-align: center;
+}
+
+.button{
+    background-color: rgb(157, 0, 157);
+    padding: 10px 15px;
+    color: #fff;
+    text-decoration: none;
+    border: 1px solid gray;
+    border-radius: 4px;
+}
+
+.button:hover{
+    background-color: purple;
+}
+
+.cam{
+margin-bottom: 40px;
+}
+.btn{
+    display: flex;
+    gap: 30px;
+}
+
+h2{
+    font-size: 35px;
+    color: #fff;
+}
+
+.robo{
+    margin-top: 10px;
+    width: 270px;
+}
+
+#webcam-container{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
